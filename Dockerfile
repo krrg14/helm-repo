@@ -3,6 +3,6 @@ FROM python:3.12-slim
 WORKDIR /app
 COPY . .
 
-EXPOSE 8501
+EXPOSE 9050
 
 CMD ["python", "app.py"]
