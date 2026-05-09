@@ -4,7 +4,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import parse_qs
 
 DATA_FILE = "todo.json"
-HOST = "localhost"
+HOST = "0.0.0.0"
 PORT = 8000
 
 
