@@ -1,0 +1,15 @@
+helm commands
+
+helm version
+helm create helloworld
+helm install <name> helloworld/
+helm uninstall <name>
+helm list
+helm list -A
+helm upgrade <first-release> helloworld/
+helm history <first-release>
+helm rollback <first-release> 2
+helm install <name> --dry-run=client helloworld/
+helm install <name> --debug --dry-run helloworld/
+helm lint helloworld/
+helm template helloworld/   
